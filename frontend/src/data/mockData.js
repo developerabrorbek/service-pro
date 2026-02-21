@@ -171,34 +171,34 @@ const generateBrandContent = (brandName, slug) => {
     
     pricing: {
       ru: [
-        { service: `Диагностика котла ${brandName}`, price: 'от 99 000 сум', note: 'Бесплатно при заказе ремонта' },
-        { service: 'Базовый ремонт', price: 'от 199 000 сум', note: 'Устранение типичных неисправностей' },
-        { service: 'Замена теплообменника', price: 'от 349 000 сум', note: 'С оригинальной запчастью' },
-        { service: 'Замена платы управления', price: 'от 399 000 сум', note: 'Оригинальная плата' },
-        { service: 'Профилактическое обслуживание', price: 'от 149 000 сум', note: 'Чистка, настройка, проверка' },
-        { service: 'Срочный выезд (24/7)', price: 'от 149 000 сум', note: 'Приезд в течение часа' }
+        { service: `Диагностика котла ${brandName}`, price: '', note: 'Бесплатно при заказе ремонта' },
+        { service: 'Базовый ремонт', price: '', note: 'Устранение типичных неисправностей' },
+        { service: 'Замена теплообменника', price: '', note: 'С оригинальной запчастью' },
+        { service: 'Замена платы управления', price: '', note: 'Оригинальная плата' },
+        { service: 'Профилактическое обслуживание', price: '', note: 'Чистка, настройка, проверка' },
+        { service: 'Срочный выезд (24/7)', price: '', note: 'Приезд в течение часа' }
       ],
       uz: [
-        { service: `${brandName} qozonini diagnostika qilish`, price: "99 000 so'mdan", note: "Ta'mir buyurtma qilinganda bepul" },
-        { service: "Asosiy ta'mir", price: "199 000 so'mdan", note: 'Oddiy nosozliklarni bartaraf etish' },
-        { service: 'Issiqlik almashtirgichni almashtirish', price: "349 000 so'mdan", note: "Original ehtiyot qism bilan" },
-        { service: 'Boshqaruv platasini almashtirish', price: "399 000 so'mdan", note: 'Original plata' },
-        { service: "Profilaktik xizmat ko'rsatish", price: "149 000 so'mdan", note: 'Tozalash, sozlash, tekshirish' },
-        { service: 'Shoshilinch chiqish (24/7)', price: "149 000 so'mdan", note: 'Bir soat ichida kelish' }
+        { service: `${brandName} qozonini diagnostika qilish`, price: "", note: "Ta'mir buyurtma qilinganda bepul" },
+        { service: "Asosiy ta'mir", price: "", note: 'Oddiy nosozliklarni bartaraf etish' },
+        { service: 'Issiqlik almashtirgichni almashtirish', price: "", note: "Original ehtiyot qism bilan" },
+        { service: 'Boshqaruv platasini almashtirish', price: "", note: 'Original plata' },
+        { service: "Profilaktik xizmat ko'rsatish", price: "", note: 'Tozalash, sozlash, tekshirish' },
+        { service: 'Shoshilinch chiqish (24/7)', price: "", note: 'Bir soat ichida kelish' }
       ],
       cyr: [
-        { service: `${brandName} қозонини диагностика қилиш`, price: '99 000 сўмдан', note: 'Таъмир буюртма қилинганда бепул' },
-        { service: 'Асосий таъмир', price: '199 000 сўмдан', note: 'Оддий носозликларни бартараф этиш' },
-        { service: 'Иссиқлик алмаштиргични алмаштириш', price: '349 000 сўмдан', note: 'Оригинал эҳтиёт қисм билан' },
-        { service: 'Бошқарув платасини алмаштириш', price: '399 000 сўмдан', note: 'Оригинал плата' },
-        { service: 'Профилактик хизмат кўрсатиш', price: '149 000 сўмдан', note: 'Тозалаш, созлаш, текшириш' },
-        { service: 'Шошилинч чиқиш (24/7)', price: '149 000 сўмдан', note: 'Бир соат ичида келиш' }
+        { service: `${brandName} қозонини диагностика қилиш`, price: '', note: 'Таъмир буюртма қилинганда бепул' },
+        { service: 'Асосий таъмир', price: '', note: 'Оддий носозликларни бартараф этиш' },
+        { service: 'Иссиқлик алмаштиргични алмаштириш', price: '', note: 'Оригинал эҳтиёт қисм билан' },
+        { service: 'Бошқарув платасини алмаштириш', price: '', note: 'Оригинал плата' },
+        { service: 'Профилактик хизмат кўрсатиш', price: '', note: 'Тозалаш, созлаш, текшириш' },
+        { service: 'Шошилинч чиқиш (24/7)', price: '', note: 'Бир соат ичида келиш' }
       ]
     },
     
     faqs: {
       ru: [
-        { q: `Сколько стоит ремонт котла ${brandName} в Ташкенте?`, a: 'Стоимость ремонта зависит от типа неисправности. Базовый ремонт начинается от 199 000 сум. Диагностика бесплатна при заказе ремонта. Окончательную цену мастер озвучит после осмотра.' },
+        { q: `Сколько стоит ремонт котла ${brandName} в Ташкенте?`, a: 'Стоимость ремонта зависит от типа неисправности. Базовый ремонт. Диагностика бесплатна при заказе ремонта. Окончательную цену мастер озвучит после осмотра.' },
         { q: `Как быстро вы можете приехать для ремонта ${brandName}?`, a: 'Мы работаем 24/7 и можем выехать в течение 1-2 часов после вашего звонка. В срочных случаях приезжаем ещё быстрее.' },
         { q: `Используете ли вы оригинальные запчасти для ${brandName}?`, a: 'Да, мы работаем только с оригинальными запчастями или качественными сертифицированными аналогами. Все запчасти имеют гарантию.' },
         { q: `Какая гарантия на ремонт котла ${brandName}?`, a: 'Мы предоставляем гарантию от 6 месяцев до 2 лет в зависимости от типа ремонта и установленных запчастей.' },
@@ -208,7 +208,7 @@ const generateBrandContent = (brandName, slug) => {
         { q: 'Что входит в профилактическое обслуживание?', a: 'В обслуживание входит: чистка теплообменника, проверка и настройка горелки, проверка всех датчиков, чистка фильтров, измерение давления газа.' }
       ],
       uz: [
-        { q: `Toshkentda ${brandName} qozonini ta'mirlash qancha turadi?`, a: "Ta'mir narxi nosozlik turiga bog'liq. Asosiy ta'mir 199 000 so'mdan boshlanadi. Ta'mir buyurtma qilinganda diagnostika bepul." },
+        { q: `Toshkentda ${brandName} qozonini ta'mirlash qancha turadi?`, a: "Ta'mir narxi nosozlik turiga bog'liq. Asosiy ta'mir. Ta'mir buyurtma qilinganda diagnostika bepul." },
         { q: `${brandName} ta'miriga qanchalik tez kelishingiz mumkin?`, a: "24/7 ishlaymiz va qo'ng'iroqdan keyin 1-2 soat ichida kelishimiz mumkin. Shoshilinch holatlarda yanada tezroq kelamiz." },
         { q: `${brandName} uchun original ehtiyot qismlardan foydalanasizmi?`, a: "Ha, biz faqat original ehtiyot qismlar yoki sifatli sertifikatlangan analoglar bilan ishlaymiz." },
         { q: `${brandName} qozonini ta'mirlashga qanday kafolat beriladi?`, a: "Ta'mir turi va o'rnatilgan ehtiyot qismlarga qarab 6 oydan 2 yilgacha kafolat beramiz." },
@@ -218,7 +218,7 @@ const generateBrandContent = (brandName, slug) => {
         { q: "Profilaktik xizmat ko'rsatishga nima kiradi?", a: "Xizmatga quyidagilar kiradi: issiqlik almashtirgichni tozalash, o'choqni tekshirish va sozlash, barcha datchiklar tekshirish." }
       ],
       cyr: [
-        { q: `Тошкентда ${brandName} қозонини таъмирлаш қанча туради?`, a: 'Таъмир нархи носозлик турига боғлиқ. Асосий таъмир 199 000 сўмдан бошланади. Таъмир буюртма қилинганда диагностика бепул.' },
+        { q: `Тошкентда ${brandName} қозонини таъмирлаш қанча туради?`, a: 'Таъмир нархи носозлик турига боғлиқ. Асосий таъмир. Таъмир буюртма қилинганда диагностика бепул.' },
         { q: `${brandName} таъмирига қанчалик тез келишингиз мумкин?`, a: '24/7 ишлаймиз ва қўнғироқдан кейин 1-2 соат ичида келишимиз мумкин. Шошилинч ҳолатларда яна тезроқ келамиз.' },
         { q: `${brandName} учун оригинал эҳтиёт қисмлардан фойдаланасизми?`, a: 'Ҳа, биз фақат оригинал эҳтиёт қисмлар ёки сифатли сертификатланган аналоглар билан ишлаймиз.' },
         { q: `${brandName} қозонини таъмирлашга қандай кафолат берилади?`, a: 'Таъмир тури ва ўрнатилган эҳтиёт қисмларга қараб 6 ойдан 2 йилгача кафолат берамиз.' },
@@ -334,7 +334,7 @@ export const services = [
     title: 'Ремонт газового котла',
     titleUz: "Gaz qozonini ta'mirlash",
     shortDesc: 'Профессиональный ремонт газовых котлов всех марок с гарантией качества',
-    price: 'от 199 000 сум',
+    price: '',
     isMainSeo: true,
     image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800',
     icon: 'Wrench'
@@ -344,7 +344,7 @@ export const services = [
     title: 'Обслуживание газового котла',
     titleUz: "Gaz qozoniga xizmat ko'rsatish",
     shortDesc: 'Регулярное техническое обслуживание для долгой службы вашего котла',
-    price: 'от 149 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1620653713380-7a34b773fef8?w=800',
     icon: 'Settings'
   },
@@ -353,7 +353,7 @@ export const services = [
     title: 'Ремонт промышленных котлов',
     titleUz: "Sanoat qozonlarini ta'mirlash",
     shortDesc: 'Ремонт и обслуживание промышленного котельного оборудования',
-    price: 'от 499 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1758873263491-f3969d8c6fda?w=800',
     icon: 'Factory'
   },
@@ -362,7 +362,7 @@ export const services = [
     title: 'Ремонт паровых котлов',
     titleUz: "Bug' qozonlarini ta'mirlash",
     shortDesc: 'Специализированный ремонт паровых котельных установок',
-    price: 'от 399 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1723474122623-25a8bfc7ea06?w=800',
     icon: 'Flame'
   },
@@ -371,7 +371,7 @@ export const services = [
     title: 'Ремонт двухконтурных котлов',
     titleUz: "Ikki konturli qozonlarni ta'mirlash",
     shortDesc: 'Восстановление работы систем отопления и горячего водоснабжения',
-    price: 'от 249 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1751486289950-5c4898a4c773?w=800',
     icon: 'Waves'
   },
@@ -380,7 +380,7 @@ export const services = [
     title: 'Ремонт напольных котлов',
     titleUz: "Pol qozonlarini ta'mirlash",
     shortDesc: 'Ремонт напольных газовых котлов любой сложности',
-    price: 'от 279 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
     icon: 'Box'
   },
@@ -389,7 +389,7 @@ export const services = [
     title: 'Ремонт электрических котлов',
     titleUz: "Elektr qozonlarini ta'mirlash",
     shortDesc: 'Диагностика и ремонт электрокотлов всех типов',
-    price: 'от 189 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1658758904121-ee49fc5e205c?w=800',
     icon: 'Zap'
   },
@@ -398,7 +398,7 @@ export const services = [
     title: 'Ремонт и обслуживание котельных',
     titleUz: "Qozonxonalarni ta'mirlash",
     shortDesc: 'Комплексное обслуживание котельных помещений',
-    price: 'от 599 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1615309662243-70f6df917b59?w=800',
     icon: 'Building'
   },
@@ -407,7 +407,7 @@ export const services = [
     title: 'Замена теплообменника',
     titleUz: 'Issiqlik almashtirgichni almashtirish',
     shortDesc: 'Быстрая замена теплообменника с гарантией',
-    price: 'от 349 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1614447413576-b346c641c128?w=800',
     icon: 'RefreshCw'
   },
@@ -416,7 +416,7 @@ export const services = [
     title: 'Замена вентилятора',
     titleUz: 'Ventilyatorni almashtirish',
     shortDesc: 'Замена вентилятора котла оригинальными запчастями',
-    price: 'от 229 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1622308023558-2130696ec5cd?w=800',
     icon: 'Fan'
   },
@@ -425,7 +425,7 @@ export const services = [
     title: 'Замена трёхходового клапана',
     titleUz: "Uch yo'lli klapanni almashtirish",
     shortDesc: 'Профессиональная замена трёхходового клапана',
-    price: 'от 199 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1700604430621-b7cb34f5bed3?w=800',
     icon: 'GitBranch'
   },
@@ -434,7 +434,7 @@ export const services = [
     title: 'Замена датчика протока воды',
     titleUz: 'Suv oqimi datchigini almashtirish',
     shortDesc: 'Замена датчика протока воды для стабильной работы',
-    price: 'от 129 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1542013936693-884638332954?w=800',
     icon: 'Droplet'
   },
@@ -443,7 +443,7 @@ export const services = [
     title: 'Замена датчика воды',
     titleUz: 'Suv datchigini almashtirish',
     shortDesc: 'Установка и замена датчиков уровня воды',
-    price: 'от 119 000 сум',
+    price: '',
     image: 'https://images.unsplash.com/photo-1749532125405-70950966b0e5?w=800',
     icon: 'Gauge'
   },
@@ -452,7 +452,7 @@ export const services = [
     title: 'Замена платы управления',
     titleUz: 'Boshqaruv platasi almashtiruvi',
     shortDesc: 'Замена электронной платы управления котлом',
-    price: 'от 399 000 сум',
+    price: '',
     image: 'https://images.pexels.com/photos/6474205/pexels-photo-6474205.jpeg?w=800',
     icon: 'Cpu'
   }
@@ -552,7 +552,7 @@ export const faqs = [
   },
   {
     question: 'Сколько стоит диагностика?',
-    answer: 'Базовая диагностика стоит от 99 000 сум. Если вы заказываете ремонт, стоимость диагностики вычитается из общей суммы.'
+    answer: 'Базовая диагностика. Если вы заказываете ремонт, стоимость диагностики вычитается из общей суммы.'
   },
   {
     question: 'Есть ли у вас оригинальные запчасти?',
