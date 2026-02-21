@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: .
+    container_name: servicepro-backend
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "6000:3000"
+    depends_on:
+      - mongo
+    volumes:
+      - .:/app
+
+  mongo:
+    image: mongo:7
+    container_name: servicepro-mongo
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data_servicepro:/data/servicepro
+
+volumes:
+  mongo_data_servicepro:
