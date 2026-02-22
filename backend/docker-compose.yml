@@ -1,7 +1,6 @@
 services:
   backend:
     build: .
-    container_name: servicepro-backend
     restart: always
     env_file:
       - .env
@@ -14,12 +13,11 @@ services:
 
   mongo:
     image: mongo:7
-    container_name: servicepro-mongo
     restart: always
     ports:
       - "27018:27017"
     volumes:
-      - mongo_data_servicepro:/data/servicepro
+      - mongo_data_servicepro:/data/db
 
 volumes:
   mongo_data_servicepro:
